@@ -1,5 +1,7 @@
 # Go Units
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/google/go-units.svg)](https://pkg.go.dev/github.com/google/go-units) [![Go Build and Test](https://github.com/google/go-units/actions/workflows/go.yml/badge.svg)](https://github.com/google/go-units/actions/workflows/go.yml)
+
 This Go library represents physical units like length, area, speed, and
 temperature as typed floating point numbers. Methods to convert between metric and [US customary units](https://en.wikipedia.org/wiki/United_States_customary_units)
 of measurement are provided on each type. Additional units can be
@@ -13,8 +15,6 @@ the Sun to Alpha Centauri in meters is near the precision limit of 64-bit
 floating point numbers, and the distance to the edge of universe cannot be
 represented as a `unit.Length`. Likewise, subatomic measurements will not be
 precise.
-
-See full documentation at <https://pkg.go.dev/github.com/google/go-units>
 
 This is not an officially supported Google product. This project is not eligible
 for the
